@@ -1,6 +1,6 @@
 # Dummy HTTP Responser
 
-A mock HTTP responser. 
+A mock HTTP responser. It will be useful on testing or developing when backend is not ready yet.
 
 ## Prerequisite
 
@@ -11,7 +11,7 @@ A mock HTTP responser.
 
 ``` bash
 # run unit tests. You have to run mongodb on localhost, port 27017
-$ MONGODB_URI=localhost go test
+$ MONGODB_URI=<your db uri> MONGODB_DATABASE=<your database> go test
 ```
 
 Contributing
